@@ -1,8 +1,8 @@
 #!/bin/bash
 
-CAMINHO_IMAGENS=/Users/josejunior/dev/git/shell-automated-script-project-1-local/shell-automated-script-project-1/imagens-livros
+cd /Users/josejunior/dev/git/shell-automated-script-project-1-local/shell-automated-script-project-1/imagens-livros
 
-for imagem in $@
+for imagem in *.jpg
 do
-    convert $CAMINHO_IMAGENS/$imagem.jpg $CAMINHO_IMAGENS/$imagem.png
+    convert $imagem $imagem.png
 done
