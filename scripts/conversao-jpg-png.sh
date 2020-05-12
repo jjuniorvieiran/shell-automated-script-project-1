@@ -1,7 +1,7 @@
 #!/bin/bash
 
 converte_imagem(){
-    cd /Users/josejunior/dev/git/shell-automated-script-project-1-local/shell-automated-script-project-1/imagens-livros____
+    cd /Users/josejunior/dev/git/shell-automated-script-project-1-local/shell-automated-script-project-1/imagens-livros
     if [ ! -d png ] # if not existes png directory 
     then
         mkdir png
